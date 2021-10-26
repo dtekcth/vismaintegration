@@ -1,0 +1,31 @@
+[visma]
+identity_url = "https://identity-sandbox.test.vismaonline.com"
+api_url = "https://eaccountingapi-sandbox.test.vismaonline.com/v2"
+redirect_uri = "https://localhost:44300/callback"
+scope = "ea:api%20offline_access%20ea:sales%20ea:accounting%20ea:purchase"
+client_ID = ""
+client_secret = ""
+token = ""
+
+[price]
+medlem_tid_id = "91f5bacc-1b51-4fd7-b0fe-87e64677c44c"
+medlem_tid_price = "5" 
+medlem_distans_id = "caac97f5-23e0-4135-a481-ac24175b306b"
+medlem_distans_price = "5"
+dbus_tid_id = "91f5bacc-1b51-4fd7-b0fe-87e64677c44c"
+dbus_tid_price = "5"
+dbus_distans_id = "caac97f5-23e0-4135-a481-ac24175b306b"
+dbus_distans_price = "5"
+inte_medlem_tid_id = "91f5bacc-1b51-4fd7-b0fe-87e64677c44c"
+inte_medlem_tid_price = "10"
+inte_medlem_distans_id = "caac97f5-23e0-4135-a481-ac24175b306b"
+inte_medlem_distans_price = "10"
+
+[sheets]
+korjournal = "./korjournal.csv"
+drivers = "./drivers.csv"
+
+
+[other]
+browser = "firefox"
+
