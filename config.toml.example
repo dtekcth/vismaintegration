@@ -1,31 +1,31 @@
 [visma]
-identity_url = "https://identity-sandbox.test.vismaonline.com"
-api_url = "https://eaccountingapi-sandbox.test.vismaonline.com/v2"
+identity_url = "https://identity.vismaonline.com"
+api_url = "https://eaccountingapi.vismaonline.com/v2"
 redirect_uri = "https://localhost:44300/callback"
-scope = "ea:api%20offline_access%20ea:sales%20ea:accounting%20ea:purchase"
+scope = "offline_access%20ea:sales%20ea:api"
 client_ID = ""
 client_secret = ""
 token = ""
 
-[price]
-medlem_tid_id = "91f5bacc-1b51-4fd7-b0fe-87e64677c44c"
-medlem_tid_price = "5" 
-medlem_distans_id = "caac97f5-23e0-4135-a481-ac24175b306b"
-medlem_distans_price = "5"
-dbus_tid_id = "91f5bacc-1b51-4fd7-b0fe-87e64677c44c"
-dbus_tid_price = "5"
-dbus_distans_id = "caac97f5-23e0-4135-a481-ac24175b306b"
-dbus_distans_price = "5"
-inte_medlem_tid_id = "91f5bacc-1b51-4fd7-b0fe-87e64677c44c"
-inte_medlem_tid_price = "10"
-inte_medlem_distans_id = "caac97f5-23e0-4135-a481-ac24175b306b"
-inte_medlem_distans_price = "10"
+[invoice]
+"kostnadställe" = "2bafae8e-4e5a-4518-a31c-e58f7a99fd2d"
+member_time_id = "9470865b-1b83-48ef-8633-392fa5d279bb"
+member_time_price = "5"
+member_distance_id = "11f2aadb-077f-459c-9904-ea42624b1786"
+member_distance_price = "5"
+dbus_time_id = "16aa2194-94ae-447c-8128-b712a1f774ee"
+dbus_time_price = "5"
+dbus_distance_id = "8d4ec37c-b664-4ab6-ab36-b05d91efce2c"
+dbus_distance_price = "4"
+outsider_time_id = "23c51d21-068d-4a9d-800a-b5d94b183772"
+outsider_time_price = "10"
+outsider_distans_id = "fd18b5bb-be4e-4654-9bf9-19ee5c65210d"
+outsider_distans_price = "10"
 
 [sheets]
 korjournal = "./korjournal.csv"
 drivers = "./drivers.csv"
-
+meter_indication_base = "94554"
 
 [other]
 browser = "firefox"
-
